@@ -13,7 +13,7 @@ const GenAi = ({ isLoggedIn }) => {
     event.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/api/GenAi", {
+      const response = await fetch("https://jwt-backend-men.onrender.com/api/GenAi", {
         method: "POST", // Use POST to send data
         headers: {
           "Content-Type": "application/json",

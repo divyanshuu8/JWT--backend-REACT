@@ -37,7 +37,7 @@ const Login = ({ setIsLoggedIn, closeModal, setToken }) => {
     }
 
     try {
-      const serverUrl = "http://localhost:5000";
+      const serverUrl = "https://jwt-backend-men.onrender.com";
 
       if (formType === "Sign-Up") {
         // Send signup data to the backend using fetch
